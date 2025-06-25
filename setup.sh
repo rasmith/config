@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-HOME=$1
 VIM_DIR=$HOME/.vim
 echo "Setting up in home directory:$HOME..."
 echo "Creating directories..."
