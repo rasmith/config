@@ -11,5 +11,5 @@ curl -LHO https://raw.githubusercontent.com/rasmith/config/refs/heads/main/.vimr
 echo "Download .tmux.conf..."
 curl -LHO https://raw.githubusercontent.com/rasmith/config/refs/heads/main/.tmux.conf  > $HOME/.tmux.conf
 echo "Install vim plug in vim..."
-vim +'PlugInstall --sync' +qa
+echo "\n" | vim +'PlugInstall --sync' +qa
 echo "Done."
